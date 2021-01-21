@@ -6,8 +6,7 @@ function Product(props) {
 
     const [{ basket }, dispatch] = useStateValue();
 
-    console.log("this---", basket);
-
+   
     const addToBasket = () => {
         dispatch({
             type: "ADD_TO_BASKET",
